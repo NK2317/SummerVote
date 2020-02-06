@@ -1,0 +1,22 @@
+<preguntas>
+	<pregunta>
+		<id_tema>44</id_tema>
+		<id_subtema>64</id_subtema>
+		<tipo_pregunta>1</tipo_pregunta>
+		<pregunta_texto>asd</pregunta_texto>
+		<resp_1>zxc</resp_1>
+		<resp_2>dfg</resp_2>
+		<resp_3>wre</resp_3>
+		<resp_correcta>qwe</resp_correcta>
+	</pregunta>
+	<pregunta>
+		<id_tema>44</id_tema>
+		<id_subtema>64</id_subtema>
+		<tipo_pregunta>1</tipo_pregunta>
+		<pregunta_texto>tyu</pregunta_texto>
+		<path_1>rte</path_1>
+		<path_2>fgh</path_2>
+		<path_3>hjkh</path_3>
+		<resp_correcta>fgh</resp_correcta>
+	</pregunta>
+</preguntas>

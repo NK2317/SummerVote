@@ -1,0 +1,10 @@
+$(".Papelera").click(function(){
+  $("#modal_motivoBaja").modal("show");
+});
+$("#confirm_motivoBaja").click(function(){
+  $("#modal_motivoBaja").modal("hide");
+  $("#modal_motivoBaja_confirmed").modal("show");
+  });
+$(".baja_exitosa_acept").click(function(){
+  $("#modal_motivoBaja_confirmed").modal("hide");
+});

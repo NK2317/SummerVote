@@ -1,0 +1,445 @@
+/* 
+1rem = 16px --se utiliza para tamaños de letra,rem depende del tamaño de letra base
+** l em depende del último font-size 
+Descripción:Sistema para elaboración de minutas.
+Propietario:Zona Zero S.A de C.V.
+ */
+
+ /* Reajustar el menú */
+/************** Esilos para el html en body*******/
+html,body{
+   /*  E8E8E8*/
+   background-color:#F0F0F0;
+}
+
+@media  (max-width: 1253px) { 
+
+   /*.Nom_Proyecto{
+      margin-left: 56px!important;
+   }*/
+   .navbar-collapse{
+   margin-left: 30px;
+   }
+
+ }
+
+input{
+  margin-top: 1%;
+}
+select{
+  margin-top: 1%;
+}
+
+
+.content{
+   color: #666666;
+}
+/********* Imagen de la parte de arriba,  **********/
+
+.Img_Encabezado{
+   padding-top: 1em;
+   padding-left: 1em;
+}
+
+.Img_Marca_Agua{
+  padding-top: 1em;
+  padding-left: 1em;
+}
+
+
+/********* Imagen circular  **********/
+.ZZ_Cir{
+   padding-left: 1em; 
+   padding-top: 1em;
+
+}
+
+/********* Nombre Proyecto **********/
+.Nom_Proyecto{
+   font-family: Arial;
+   font-weight: bold;
+   color: #ff9400;
+   padding: 1.5em 0em 2em 0em;
+   /*margin-left: 6px;*/
+}
+.navbar-zz{
+   padding-left: 0;
+} 
+/********* a href del menu (Opciones del menú) **********/
+a.Menu{
+   font-family: Arial;
+   font-weight: bold;
+   text-align: center;
+   color: #63666A;
+   text-decoration:none;
+   display: inline;
+   margin: 10px;
+}
+
+/********* hover a href del menu (Opciones del menú) **********/
+a.Menu:hover{
+   color: #10069F;
+}
+/* Clase para la opcion seleccionada del Menú */
+.Active{
+   color:#10069F!important;
+   }
+
+/************ Inicia la parte del contenido Contenido  **********/
+
+
+.Sub_Titulo{
+  color: #10069F;
+  font-style: bold;
+}
+
+label{
+   color: #63666A;
+}
+label.Label_Modal{
+   padding-left: 45px;
+}
+/* Formato para solo lectura de los campos Añadir altura*/ 
+.Solo_Lectura{
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 1px black solid;
+  width: 100%;
+  height: 45%;
+}
+/*.Solo_Lectura_e{
+   background-color: #F0F0F0;
+   border: 0px;
+   border-bottom: 1px black solid;
+   height: 37px;
+}*/
+/*input.Solo_Lectura{
+   height: 37px;
+}*/
+/******* Encabezado de las tablas  */
+.Tabla{
+   background-color: #666666;
+   color: white;
+}
+/* Ancho de las tablas */
+.table{
+   text-align: center;
+}
+
+/* Se pone el color a todo los renglonese que son pares */
+.table-striped>tbody>tr:nth-child(even)>th {
+   background-color: grey;   
+   
+ } 
+
+/* Se pone el color a todo los renglonese que son pares e impares de las tablas que solo muestran
+informacioón, es decir aquellas de formato solo lectura(opción Ver) */
+ .table-striped2>tbody>tr:nth-child(even)>td,
+.table-striped2>tbody>tr:nth-child(even)>th {
+   background-color: white;   
+ }
+
+ .table-striped2>tbody>tr:nth-child(odd)>td,
+ .table-striped2>tbody>tr:nth-child(odd)>th {
+    background-color:#CCCCCC;  
+  }
+
+  .error{
+     color:red!important;
+  }
+
+
+/* Selects Multiples */
+/* Select simples */
+/*****************Iconos****************** */
+.Mantenimiento{
+  width: 1.8em;
+  height: 1.8 em;
+  /* margin: 0px 0px 0px 10px; */
+}
+
+.CancelarEnvio{
+   width: 1.8em;
+   height: 1.5em;
+   /* margin: 0px 0px 0px 10px; */
+}
+
+.seguimiento{
+  width: 1.8em;
+  height: 1.5em;
+  /* margin: 0px 0px 0px 10px; */
+}
+
+.ver{
+  width: 1.8em;
+  height: 1.5em;
+  /* margin: 0px 0px 0px 10px; */
+}
+
+
+.Editar{
+   width: 1.5em;
+   height: 1.5em;
+   /* margin: 0px 0px 0px 10px; */
+   
+}
+.Papelera{
+   width: 1.5em;
+   height: 1.5em;
+   /* margin:0px 0px 0px 10px; */
+
+}
+
+.Renovar{
+   width: 1.5em;
+   height: 1.5em;
+   /* margin:0px 0px 0px 10px; */
+
+}
+
+.Activar{
+   width: 1.5em;
+   height: 1.5em;
+   /* margin:0px 0px 0px 10px; */
+
+}
+
+
+/* Sirve para separar en la opion ver los iconos de eliminar y editar
+los cuales estan ubicados en la parte nferior derecha */
+.Det{
+   margin: 1em;
+}
+/* Login */
+.Login{
+   width: 250px;
+   height: 37px;
+   margin:0px 0px 0px 150px;
+}
+
+ul li{
+   display: inline;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.btn-border{
+   border-color: gray;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn-file {
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+}
+
+.btn-blue{
+  border-color: #10069F;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.btn-blue:hover{
+  -webkit-transition-duration: 0.4s;
+  background-color: #10069F;
+  color: white;
+}
+
+.btn-red{
+  border-color: transparent;
+  color: red;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.btn-red:hover{
+  -webkit-transition-duration: 0.4s;
+  background-color: red;
+  color: white;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.contenido{
+  margin-left: 15.5%;
+}
+
+.contenido-menu{
+  margin-left: 8%;
+}
+
+.salir-btn{
+  padding-left: 0;
+}
+
+a.elementos-catalogo{
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    color: #63666A;
+    display: inline;
+}
+
+a.elementos-catalogo:hover{
+   color: #10069F;
+}
+
+body{
+  overflow-x: hidden;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+html{
+  min-height: 100%;
+  position: relative;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 7.5%;
+  background-color: #D9D9D9;
+  text-align: center;
+}
+.progressbar {
+      counter-reset: step;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+      width: 90%;
+  }
+  .progressbar li {
+      list-style-type: none;
+      width: 8%;
+      float: left;
+      font-size: 12px;
+      position: relative;
+      text-align: center;
+      text-transform: uppercase;
+      color: #7d7d7d;
+      align-self: center;
+  }
+  .progressbar li:before {
+      width: 30px;
+      height: 30px;
+      content: counter(step);
+      counter-increment: step;
+      line-height: 30px;
+      border: 2px solid #7d7d7d;
+      display: block;
+      text-align: center;
+      margin: 0 auto 10px auto;
+      border-radius: 50%;
+      background-color: white;
+  }
+  .progressbar li:after {
+      width: 100%;
+      height: 2px;
+      content: '';
+      position: absolute;
+      background-color: #7d7d7d;
+      top: 15px;
+      left: -50%;
+      z-index: -1;
+  }
+  .progressbar li:first-child:after {
+      content: none;
+  }
+  
+  .progressbar li.active:before {
+      border-color: #ff9400;
+      color: #ff9400;
+  }
+  .progressbar li.active + li:after {
+      background-color: #55b776;
+  }
+
+  .bar_content{
+    width: 100%;
+  }
+
+  .grey-card{
+    background-color: #FFF;
+    border-color: transparent;
+  }
+  .btn_respuesta{
+    width: 80%;
+  }
+
+  .btn_respuesta:hover{
+    -webkit-transition-duration: 0.4s;
+    background-color: gray;
+    color: white;
+  }
+
+  .respuesta_errada{
+    border-width: 19px;
+    border-width: 6px;
+    border-color: #b30000;
+  }
+
+  .respuesta_correcta{
+    border-width: 19px;
+    border-width: 6px;
+    border-color: #2eb82e;
+  }
+
+  .respuesta_correcta:hover{
+    border-width: 19px;
+    border-width: 6px;
+    border-color: #2eb82e;
+  }
+
+  .Answer{
+    width: 80%;
+  }
+
+  .grey-font{
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    color: #63666A;
+    text-decoration:none;
+    display: inline;
+    padding-top: 5em;
+  }
+
+  .orange-font{
+    font-family: Arial;
+    font-weight: bold;
+    color: #ff9400;
+  }
+
+    .progressbar li.circulo_correcto:before {
+      border-color: #2eb82e;
+      content: url('../img/Iconos/correct2.png');
+
+  }
+
+      .progressbar li.circulo_errado:before {
+      border-color: #e50000;
+      font-weight: 1000;
+      content:  url('../img/Iconos/incorrect2.png');
+  }
+
+ /*Sirve para que aparezca scroll en el modal de la orden de compra*/
+  
+  #scroll {
+    overflow: scroll;
+    height: 200px;
+  }

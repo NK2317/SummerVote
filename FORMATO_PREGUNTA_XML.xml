@@ -1,0 +1,11 @@
+<Examen>
+	<reactivo>
+		<pregunta></pregunta>
+		<respuesta_1></respuesta_1>
+		<respuesta_2></respuesta_2>
+		<respuesta_3></respuesta_3>
+		<respuesta_correcta></respuesta_correcta>
+		<eleccion></eleccion>
+		<acertado></acertado>
+	</reactivo>
+</Examen>

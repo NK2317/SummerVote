@@ -1,0 +1,17 @@
+<Subtemas>
+	<Subtema>
+		<Id_Tema>1</Id_Tema>
+		<Subtema>Introduccion</Subtema>
+		<Estatus>1</Estatus>
+	</Subtema>
+	<Subtema>
+		<Id_Tema>1</Id_Tema>
+		<Subtema>Sintaxis</Subtema>
+		<Estatus>1</Estatus>
+	</Subtema>
+	<Subtema>
+		<Id_Tema>1</Id_Tema>
+		<Subtema>Procedimientos</Subtema>
+		<Estatus>1</Estatus>
+	</Subtema>
+</Subtemas>

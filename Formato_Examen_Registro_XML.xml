@@ -1,0 +1,21 @@
+<Examen>
+	<preguntas_originales>
+		<pregunta>
+			<texto></texto>
+			<r1></r1>
+			<r2></r2>
+			<r3></r3>
+			<rc></rc>
+		</pregunta>
+	</preguntas_originales>
+	<preguntas_contestadas>
+		<pregunta>
+			<r1></r1>
+			<r2></r2>
+			<r3></r3>
+			<rc></rc>
+			<r_elegida></r_elegida>
+			<correcto></correcto>
+		</pregunta>
+	</preguntas_contestadas>
+</Examen

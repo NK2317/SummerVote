@@ -1,0 +1,81 @@
+---Administracion de examenes, checar el input de desea tiempo  de reactivación y en ver poner brs 
+---Expandir la tabla de examen
+---Añadir la modalidad de tipo de pregunta, que cambie
+---Añadir el mismo name en examen, los radio buttons
+---Guardar no tiene modal(Verificar todos)
+---centrar el contenido de los modales
+---campos dependientes del tipo de usuario
+---Acomodar los margenes de la pagina
+---Cambiar titulo en catalogo de jefes inmediatos
+---revisar tiempo de activacion
+---Agregar el texto de numero de preguntas en registro de examen y mover el botón de mas, alargar tabla
+---"Aprovado"
+---"aprovacion" en datos de examen
+---Titulo registro de preguntas
+---Espacio entre datos de examen al hacerlo
+---En las vistas de cátalogos primero grises y luego azules en la pagina
+---Tema y subtema en vista de administración de temas
+---Mantener la distancia en los botones de administrar(Revisar, está en algunos)
+---Direccionamiento en tema
+---Baja de temas y subtemas
+---Texto en gris subrayado para los links
+---Bajar el mensaje de tiempo e intento al hacer examen
+---Mensaje de respuesta correcta e incorrecta
+---Modales en módulo de preguntas
+---Acomodar los botones de editar y eliminar en las vistas de detalle (Darles separación y acomodar al margen)
+---acomodar la tabla, ver anchura de columnas en preguntas 
+---Tema y subtema en registrar pregunta van primero
+---REVISAR LOS MODALES COMPAAAAA
+---agregar area a jefe inmediato (ocupamos hacer todo el analisis XD) (Es solo un módulo demostrativo) ---Permisos en tipos de usuario
+---Revisar acciones (Qué pedo?, qales?) (Creo que eran los espacios o que todas funcionen)
+---Quitarle padding-button al de ver pregunta con imagen
+---USUARIOS : *
+---Añadir la clase text-right en los botones de las vistas de ver
+-Espacio debajo de imagenes
+---un <br> a Bienvenido
+---h4 en todos los títulos de modales
+---Un poco más de altura en los inputs de clase Solo_Lectura
+---Usar el botesito de basura en la tabla de registro/modificacion de subtemas
+
+Quitarle la s a subtemas de la tabla de administracion de temas
+Más espacio hacia abajo en los botones de la página de baja de temas y subtemas
+Los de catálogos que regresen a la administración de catálogos
+(Superadmin y admin se les envian los problemas) *****ES DE BACK ESTO*****
+Alinear el botón de más en la pantalla de examen
+Revisar la vista de consultar examen
+En duración agregar un texto, no bajarlo lo de horas y minutos
+Cambiar "tema/subtema" por número de preguntas en modificar examen
+Añadir br a registrar pregunta texto y a ver pregunta texto
+-Hacer grises los links que aparecen en registrar pregunta por archivo
+Modales del examen
+Reducir las lineas de la vista de la pagina de resultado de examen
+***Hacer una tabla con tema,subtema,pregunta,respuesta-correcta en el de registro de preguntas texto(la hice sin respuesta correcta pero le puse tipo de pregunta)
+Dar un poco de margen a los radio de hacer examen
+Arreglar la distancia de salir y los inputs
+Cambiar el texto de am,pm en el campo de tiempo de examen
+revisar la S fantasma de registrar pregunta
+acomodar número de preguntas 
+cambiar el checkbox del numero de preguntas a radiobutton(no c puede)
+dar un poco de espaciaro entre las etiquetas y los campos (se pegan)
+Actualizar la vista de modificar examen
+--Agregar el número de intento a tabla de resultados
+--Agregar opción de ver en tabla de resultados
+--Reducir el espacio de las acciones en la tabla de examen
+--Reducir tamaño del codigo de examen
+--Validar el promedio al registrar examen (10 al 100)
+--Modo didactico quitarlo porque siempre será
+--Mover el número de pregunta a la derecha y agregar la palabra formato de pregunta a las opciones(view)
+--Agrupar resultados de examen
+--Agregar el botón de salir junto a volver iniciar examen
+--Tipo de finalización por intento
+--Cerrar sesión (en uso)
+--Limitar el número de preguntas dependiendo de las disponibles
+--Validar tabla de resultados por área, que muestre lo relacionado a x área
+	-Administración usuarios
+--Terminar hacer examen (palomitas)
+************************************2da versión*******************************************
+*************************************PENDIENTES*******************************************
+--Agregar preguntas incorrectas por examen
+--Validar desconexión
+--Preguntas con imagen
+	-

@@ -1,0 +1,14 @@
+<bloques>
+	<bloque>
+		<id_tema>1</id_tema>
+		<id_subtema>null</id_subtema>
+		<id_tipo_pregunta>1</id_tipo_pregunta>
+		<numero_preguntas>10</numero_preguntas>
+	</bloque>
+	<bloque>
+		<id_tema>1</id_tema>
+		<id_subtema>2</id_subtema>
+		<id_tipo_pregunta>1</id_tipo_pregunta>
+		<numero_preguntas>10</numero_preguntas>
+	</bloque>
+</bloques>
